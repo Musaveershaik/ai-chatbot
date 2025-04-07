@@ -1,0 +1,29 @@
+
+.settings-panel {
+  background-color: var(--secondary-colour);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.setting-item {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.setting-item label {
+  min-width: 100px;
+}
+
+.setting-item input,
+.setting-item select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.setting-item input[type="range"] {
+  flex: 1;
+}
